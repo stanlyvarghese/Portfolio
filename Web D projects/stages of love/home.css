@@ -1,0 +1,67 @@
+.container{
+    height: 790vh;
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background: linear-gradient(to bottom, white,yellow,rgb(250, 166, 180),rgb(255, 50, 50),rgb(196, 112, 23),rgb(0, 0, 0),rgb(157, 157, 157),rgb(255, 255, 255));
+}
+.textbox{
+    position: absolute;
+    top: 40%;
+    height: 100vh;
+    width: 20vw;
+    margin-bottom: 5vh;
+}
+.text1 {
+    position:absolute;
+    left: 10%;
+    top: -20%;
+    
+}
+.text2 {
+    position:absolute;
+    left: 10%;
+    top:120%;
+}
+.text3 {
+    position:absolute;
+    left: 10%;
+    top: 240%;
+}
+.text4 {
+    position:absolute;
+    left: 10%;
+    top: 360%;
+}
+.text5 {
+    position:absolute;
+    left: 10%;
+    top: 450%;
+}
+.text6 {
+    position:absolute;
+    left: 10%;
+    top: 560%;
+}
+.text7 {
+    position:absolute;
+    left: 10%;
+    top: 700%;
+}
+.text8 {
+    position:absolute;
+    left: 10%;
+    top: 840%;
+    padding-bottom: 15vh;
+}
+.head{
+    font-size: 4vw;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left, rgb(255, 255, 255),rgb(253, 0, 0),rgb(0, 0, 0));
+    -webkit-background-clip:text;
+}
+.hero{
+    text-align: center;
+    padding-bottom: 10vh;
+}

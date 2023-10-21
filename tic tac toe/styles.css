@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .tic-tac-toe-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    max-width: 320px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  .cell:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .winner {
+    background-color: #80e27e;
+  }
+  
+  .draw {
+    background-color: #e27e7e;
+  }
+  

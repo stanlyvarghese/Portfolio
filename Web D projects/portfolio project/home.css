@@ -1,0 +1,114 @@
+.sidenav{
+    width: 20%;
+    background-color: rgb(62, 62, 62);
+    height: 100%;
+    
+}
+.sidenav a{
+    color: white;
+    text-decoration:none;
+}
+.navbar1{
+    background-color: #67b7b4;
+}
+
+.sidenav-elements-a{
+    height: 10%;
+    padding: 5%;
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidenav-elements-b{
+    height: 10%;
+    padding: 5%;
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+}
+.nav-link{
+
+    font-size: 130%;
+    padding-left: 5%;
+}
+.navbar-brand{
+    font-size: 150%;
+}
+#offcanvasDarkNavbar{
+    
+    width:20%;
+}
+.btn1{
+    position: absolute;
+    z-index: 10000; 
+}
+.background-color{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 100vh;
+    
+}
+.boxblur{
+    position:absolute;
+    height: 50vh;
+    width:50vh;
+    border-radius: 40%;
+    background-color: #6dbdbc;
+    top: 30%;
+    left:-10%;
+    filter: blur(120px);
+    z-index:200;
+}
+.background-text {
+    position:absolute;
+    
+    top:35%;
+    left:30%;
+}
+.background-text h2{
+    /* font-family: 'Mooli',sans serif; */
+    /* font-family: 'Martian Mono', monospace; */
+    font-size: 6vw;
+    /* margin-bottom: 2vw; */
+    color:#6dbdbc;    
+    filter: drop-shadow(0.35rem 0.35rem 0.35rem #67b7b4);
+}
+.background-text h3{
+    font-size: 3vw;
+    margin-left: 1vh;
+    font-family: 'Martian Mono', monospace;
+    color:#6dbdbc;    
+}
+
+.profile {
+    position:absolute;
+    top: 30%;
+    left: 5%;
+    height: 60vh;
+    border-radius: 5%;
+}
+.skillswrapper{
+    position: absolute;
+    top:100%;
+}
+.profiletext{
+    position: absolute;
+    
+}
+
+
+.profilesub {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+
+}
+.skills {
+}
+.skillsdiv {
+
+}
+

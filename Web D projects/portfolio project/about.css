@@ -1,0 +1,32 @@
+.sidenav-elements-a{
+    height: 10%;
+    padding: 5%;
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidenav-elements-b{
+    height: 10%;
+    padding: 5%;
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+}
+.nav-link{
+
+    font-size: 130%;
+    padding-left: 5%;
+}
+.navbar-brand{
+    font-size: 150%;
+}
+#offcanvasDarkNavbar{
+    
+    width:25%;
+}
+.offcanvas-title{
+    padding-left: 5%;
+}
